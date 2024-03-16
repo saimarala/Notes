@@ -1,0 +1,143 @@
+// Control Structures
+//Control structures are used to manage the flow of execution in a program
+
+//Conditional structures
+//Loop structures
+//Exception handling structures
+
+
+//Conditionl Structures
+// Control the flow of program based on certain conditions.
+
+//If...else
+//switch...case
+
+//If...else
+
+
+// Syntax
+// if (condition) {
+//     // Code to execute if the condition is true
+// } else {
+//     // Code to execute if the condition is false
+// }
+
+// Give number is a positive or negative
+
+// def num = 0
+
+// if (num > 0) {
+//     println "The given ${num} is postive"
+// } else {
+//     println "The given ${num} is negative"
+// }
+
+// Syntax
+// if (condition) {
+//     // Code to execute if the 1st condition is true
+// } else if (condition) {
+//     // Code to execute if the 2nd condition is true
+// } else {
+//     // Code to execute if the condition is false
+// }
+
+// def num = -10
+
+// if (num > 0) {
+//     println "The given number ${num} is postive"
+// } else if (num < 0) {
+//     println "The given number ${num} is negative"
+// } else {
+//     println "The given number is zero"
+// }
+
+// Conditional Operators
+
+//Tenrary Operator
+//is a concise way to express conditional logic 
+
+// Syntax
+// condition ? expressionIfTrue : expressionIfFalse
+
+// def x = 10
+// def result
+
+// if (x > 5){
+//     result = "Greater than 5"
+// }else {
+//     result = "Less than or equal to 5"
+// }
+// println result
+
+// def x = 3
+// def result
+
+// result = (x > 5) ? "Greater than 5" : "Less than or equal to 5"
+// println result
+
+// Elvis Operator
+
+// Syntax
+// variable = expression ?: defaultValue
+
+// def sampleText = "Sample Value"
+// def elivsOutput = sampleText ?: "Default message, Hello Groovy!"
+// println elivsOutput
+
+
+//switch..case
+
+// Syntax
+// def variable = // some value
+
+// switch (variable) {
+//     case value1:
+//         // code to execute if variable equals value1
+//         break
+//     case value2:
+//         // code to execute if variable equals value2
+//         break
+//     // additional cases as needed
+//     default:
+//         // code to execute if none of the cases match
+// }
+
+
+
+//Groovy Truth
+
+
+// Boolean expressions : True if the corresponding Boolean value is true.
+// Collections, Arrays and Maps: Non-empty Collections, arrays and maps are true.
+// Strings: Non-empty Strings are true.
+// Numbers: Non-zero numbers are true.
+// Object References: Non-null object references are coerced to true.
+
+
+// def trutyString
+// if (trutyString) {
+//     println "This string is Not empty."
+// } else {
+//     println "This string is empty"
+// }
+
+
+
+Practice If..else questions: 
+============================
+1. Write a program that converts temperatures between Celsius and Fahrenheit. The program should ask the user to input a temperature and the scale (C or F) and then output the converted temperature.
+2. Write a program that takes a student's score as input and prints out their grade. Use the following grading scale:
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
+
+3.Write a program that takes two numbers as input and prints out the larger number.
+4. Write a program that checks whether a given year is a leap year. A leap year is either divisible by 4 but not by 100, or divisible by 400.
+
+Practice Switch case questions:
+===============================
+1. Write a program that takes an integer representing a month (1 for January, 2 for February, etc.) and prints the name of the month.
+2.Write a program that takes two numbers and an operator (+, -, *, /) as input and performs the corresponding operation using a switch statement.
+3.Write a program that takes an integer representing the color of a traffic light (1 for Red, 2 for Yellow, 3 for Green) and prints the action a driver should take.
